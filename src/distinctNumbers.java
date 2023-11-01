@@ -9,11 +9,9 @@ public class distinctNumbers {
         // Read integers until 0 is entered
         System.out.println("Enter numbers between 1 and 100 (enter 0 to stop):");
         int num = inputLine.nextInt();
-        int counter = 0;
         //Check if the number is 0
         while (num != 0) {
             //check if the number is valid
-            counter++;
             if (num >= 1 && num <= 100) {
                 //Up the index of that number by one(all are 0 by default)
                 counts[num]++;
@@ -23,11 +21,17 @@ public class distinctNumbers {
             //assign the next value to the num variable
             num = inputLine.nextInt();
         }
-        System.out.println("The numbers that repeat: ");
-        for(int i = 0; i < counter; i++){
-            if(counts[i] >= 1);{
-                System.out.print(counts[i] + " ");
+
+        // Display occurrences of numbers
+        //Check every index
+        for (int i = 1; i <= 100; i++) {
+            //If it is more than one a repetition has occured
+            String time = "";
+
+            if (counts[i] >= 1) {
+                System.out.print(i + " ");
             }
+
         }
     }
 }
