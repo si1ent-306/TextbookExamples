@@ -9,7 +9,6 @@ public class MaxMethod {
         System.out.println(max(num1, num2));
     }
     public static int max(int num1, int num2){
-         int result = (num1 > num2)? num1 : num2;
-         return result;
+        return (num1 > num2)? num1 : num2;
     }
 }
