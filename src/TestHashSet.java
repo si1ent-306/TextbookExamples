@@ -19,7 +19,7 @@ public class TestHashSet {
         Set<String> set2 = new HashSet<>();
         set2.add("London");
         set2.add("paris");
-        set2.add("Shanghi");
+        set2.add("Shanghai");
         System.out.println(set2);
         System.out.println("set2 size : " + set2.size());
         set.addAll(set2);
