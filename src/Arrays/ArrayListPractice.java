@@ -1,4 +1,5 @@
-import java.util.ArrayDeque;
+package Arrays;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;

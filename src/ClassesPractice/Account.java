@@ -1,3 +1,5 @@
+package ClassesPractice;
+
 import java.time.LocalDate;
 
 public class Account {
@@ -50,7 +52,7 @@ public class Account {
 
     @Override
     public String toString() {
-        return "Account{" +
+        return "ClassesPractice.Account{" +
                 "id=" + id +
                 ", balance=" + balance +
                 ", annualInterestRate=" + annualInterestRate +

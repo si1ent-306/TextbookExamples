@@ -1,3 +1,5 @@
+package ClassesPractice;
+
 public class Fan {
     private static int SLOW  = 1;
     private static int MEDIUM  = 2;
@@ -43,7 +45,7 @@ public class Fan {
 
     @Override
     public String toString() {
-        return "Fan{" +
+        return "ClassesPractice.Fan{" +
                 "speed=" + speed +
                 ", on=" + on +
                 ", radius=" + radius +
@@ -56,14 +58,14 @@ public class Fan {
         Fan1.setSpeed(LONG);
         Fan1.setRadius(10);
         Fan1.setColor("Yellow");
-        System.out.println("Fan 1");
+        System.out.println("ClassesPractice.Fan 1");
         System.out.println(Fan1.toString());
         Fan Fan2 = new Fan();
         Fan2.setSpeed(MEDIUM);
         Fan2.setColor("Blue");
         Fan2.setRadius(5);
         Fan2.setOn(false);
-        System.out.println("Fan 2");
+        System.out.println("ClassesPractice.Fan 2");
         System.out.println(Fan2.toString());
     }
 }

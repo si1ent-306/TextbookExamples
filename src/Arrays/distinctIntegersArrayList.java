@@ -1,3 +1,5 @@
+package Arrays;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 //Write a method that removes the duplicate elements from an array list of integers

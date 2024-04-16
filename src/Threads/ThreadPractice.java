@@ -1,3 +1,5 @@
+package Threads;
+
 public class ThreadPractice {
     public static void main(String[] args){
         Runnable printA = new printChar('a', 100);

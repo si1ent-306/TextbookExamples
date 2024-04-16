@@ -1,4 +1,4 @@
-package ClassPractice;
+package ClassesPractice;
 import java.util.Date;
 public class GeometricObject {
     private String colour;
