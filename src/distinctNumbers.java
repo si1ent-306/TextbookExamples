@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class distinctNumbers {
@@ -21,17 +22,18 @@ public class distinctNumbers {
             //assign the next value to the num variable
             num = inputLine.nextInt();
         }
-
+        Arrays.stream(counts).distinct()
+                .forEach(System.out::println);
         // Display occurrences of numbers
         //Check every index
-        for (int i = 1; i <= 100; i++) {
-            //If it is more than one a repetition has occured
-            String time = "";
-
-            if (counts[i] >= 1) {
-                System.out.print(i + " ");
-            }
-
-        }
+//        for (int i = 1; i <= 100; i++) {
+//            //If it is more than one a repetition has occured
+//            String time = "";
+//
+//            if (counts[i] >= 1) {
+//                System.out.print(i + " ");
+//            }
+//
+//        }
     }
 }
